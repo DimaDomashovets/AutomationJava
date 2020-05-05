@@ -33,7 +33,7 @@ public class stepDefinition extends base{
     	
     	LandingPage landPage = new LandingPage(driver);
 		landPage.getLogin().click();
-		log.info("login button clicked");
+		log.info("login button clicked and login page opens");
     }
 	
     @When("^User enters (.+) and (.+) and logs in $")
